@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/accounts_your_name" />
+
+            <TextView
+                android:id="@+id/accounts_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <Button
+                android:id="@+id/accounts_changename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/accounts_change_name" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/accounts_created" />
+
+            <TextView
+                android:id="@+id/accounts_created"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/accounts_modified" />
+
+            <TextView
+                android:id="@+id/accounts_modified"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/accounts_accounts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/accounts_loading" />
+
+            <Button
+                android:id="@+id/accounts_new"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/accounts_new" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/accounts_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ListView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/accounts_delete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/accounts_delete_user" />
+
+            <Button
+                android:id="@+id/accounts_log_out"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/accounts_log_out" />
+
+            <Button
+                android:id="@+id/accounts_refresh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/accounts_refresh" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

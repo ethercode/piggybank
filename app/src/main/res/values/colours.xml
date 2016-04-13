@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="activity_background_general">#FFFFFF</color>
+    <color name="activity_background_gray">#3F3F3F</color>
+
+    <color name="button_rounded_foreground_white_text">#FFFFFF</color>
+    <color name="button_rounded_background_green">#56AF49</color>
+    <color name="button_rounded_background_green_dim">#2B5724</color>
+    <color name="button_rounded_background_blue">#2C3E7E</color>
+    <color name="button_rounded_background_blue_dim">#161F40</color>
+
+    <color name="text_foreground_white">#FFFFFF</color>
+    <color name="text_foreground_gray">#DFDFDF</color>
+    <color name="text_foreground_black">#000000</color>
+
+
+</resources>

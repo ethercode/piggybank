@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_account_piggybank">PiggyBank</string>
+    <string name="no_account_new_account">Create new account</string>
+    <string name="no_account_existing">Log into existing account</string>
+    <string name="new_account_enter_your_name">Enter your name</string>
+    <string name="new_account_next">Next</string>
+    <string name="accounts_your_name">Your Name:</string>
+    <string name="accounts_modified">Modified:</string>
+    <string name="accounts_created">Created:</string>
+    <string name="accounts_delete_user">Delete User</string>
+    <string name="accounts_log_out">Log Out</string>
+    <string name="accounts_accounts">Accounts (%d)</string>
+    <string name="accounts_loading">Accounts (loading)</string>
+    <string name="accounts_new">New Account</string>
+    <string name="accounts_refresh">Refresh</string>
+    <string name="accounts_change_name">Change Name</string>
+    <string name="transactions_account_number">Account Number:</string>
+    <string name="transactions_rename">Rename</string>
+    <string name="transactions_created">Created:</string>
+    <string name="transactions_modified">Modified:</string>
+    <string name="transactions_transactions">Transactions (%d)</string>
+    <string name="transactions_loading">Transactions (loading)</string>
+    <string name="transactions_new">Send Money</string>
+    <string name="transactions_delete_account">Delete Account</string>
+    <string name="transactions_refresh">Refresh</string>
+</resources>

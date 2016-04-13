@@ -1,0 +1,41 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.piggybank.android">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- overriding the SugarORM setting with tools:replace-->
+
+    <application
+        android:name=".application.PiggyBankApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/setting_app_name"
+        android:theme="@style/AppTheme"
+        tools:replace="android:label">
+
+        <activity android:name="com.piggybank.android.activities.splash.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.NoAccountActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".activities.ExistingAccountActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".activities.AccountsActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".activities.TransactionsActivity"
+            android:launchMode="singleTask" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setting_app_name">PiggyBank</string>
+
+    <string name="setting_flavour">Development</string>
+    <string name="setting_api_endpoint">http://wf-dev.ethercode.net:8080</string>
+
+    <bool name="setting_log_verbose">true</bool>
+    <bool name="setting_log_debug">true</bool>
+    <bool name="setting_log_warn">true</bool>
+    <bool name="setting_log_error">true</bool>
+    <bool name="setting_log_info">true</bool>
+    <bool name="setting_log_wtf">true</bool>
+
+</resources>
